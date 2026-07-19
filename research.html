@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research — Dr. Vikram</title>
+  <meta name="description" content="Research vision of Dr. Vikram: defects, disorder, and transport in energy materials via first-principles and machine-learning-enhanced atomistic simulations.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-research">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">Dr. <span>Vikram</span></a>
+    <button class="nav-toggle" aria-label="Toggle menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="research.html" class="active">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="teaching.html">Teaching &amp; Mentoring</a></li>
+      <li><a href="talks.html">Talks &amp; Awards</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-head container">
+  <h1>Research</h1>
+  <p>
+    Understanding how atomic-scale interactions give rise to defects, disorder, interfaces,
+    transport processes — and ultimately the functionality of complex materials.
+  </p>
+</header>
+
+<main class="container">
+
+  <section class="reveal">
+    <h2 class="section-title">Vision</h2>
+    <img class="theme-fig" src="assets/research_vision.png" alt="Workflow: atomistic modelling and DFT feed machine-learned atomistic models (graph neural networks), which enable studies of energy materials — photovoltaics, batteries, catalysis, and hydrogen.">
+    <div class="prose">
+      <p>
+        Many of the phenomena that decide whether an energy material succeeds or fails — ion migration,
+        phase stability, degradation, interface evolution, and coupled charge, ion, and heat transport —
+        occur over length and time scales that conventional first-principles simulations cannot reach.
+        Recent advances in <strong>machine-learned atomistic modelling</strong> bridge this gap: they retain
+        near first-principles accuracy while enabling simulations of realistic structures over far larger
+        spatial and temporal scales.
+      </p>
+      <p>
+        My research uses these tools to address fundamental questions in materials chemistry, condensed
+        matter physics, and energy materials. My long-term goal is to develop <strong>predictive computational
+        frameworks</strong> that connect electronic structure, atomistic dynamics, and material functionality —
+        enabling the accelerated discovery and design of next-generation functional materials. Halide
+        perovskite photovoltaics are a deliberate starting point rather than a boundary: the same physical
+        framework transfers directly to thermoelectrics, catalysis, batteries, hydrogen storage, and
+        materials built from rare-earth and critical-mineral elements.
+      </p>
+    </div>
+  </section>
+
+  <section class="reveal">
+    <h2 class="section-title">Research Themes</h2>
+
+    <div class="theme">
+      <div class="theme-kicker">Theme I</div>
+      <h3>Defects, Interfaces, and Non-Equilibrium Dynamics</h3>
+      <img class="theme-fig" src="assets/theme1_defects.png" alt="Point defects in the perovskite lattice, iodide-ion migration through the octahedral framework, and molecular passivation of an iodide vacancy at the surface via O–Pb and N–Pb bonds.">
+      <p>
+        Defects and interfaces often control the stability and performance of functional materials. Atoms
+        and ions move through complex local environments, interact with surfaces and grain boundaries, and
+        respond to illumination, temperature, electric fields, and chemical additives — intrinsically dynamic
+        processes involving rare events that static calculations alone cannot capture.
+      </p>
+      <p>
+        I study how local bonding, defect chemistry, and interface structure govern non-equilibrium processes
+        such as <strong>ion migration, defect clustering, passivation, and degradation</strong>. In halide perovskites,
+        this work has spanned mixed Pb–Sn systems, additive-engineered compositions, and surface-passivated
+        structures, using machine-learning-enhanced models to explore migration pathways and interface
+        configurations at a scale impractical for conventional first-principles methods. The same ideas extend
+        to ion conductors, battery interfaces, hydrogen-storage materials, and catalytic surfaces.
+      </p>
+    </div>
+
+    <div class="theme">
+      <div class="theme-kicker">Theme II</div>
+      <h3>Disorder, Phase Stability, and Emergent Behaviour</h3>
+      <img class="theme-fig" src="assets/theme2_disorder.png" alt="Iodide/chloride mixing configurations in layered perovskites, a temperature-composition phase-stability diagram showing stable, metastable and unstable regions, and vertical crystallisation with [001] orientation on a substrate.">
+      <p>
+        Functional materials often derive their useful properties from chemical complexity — mixed
+        compositions, alloying, dopants, vacancies, and low-dimensional structures. That same complexity
+        creates vast configurational spaces where small changes in local atomic arrangement strongly
+        influence macroscopic behaviour.
+      </p>
+      <p>
+        I investigate why some mixed-composition materials remain homogeneous while others phase segregate,
+        how local ordering influences crystallisation pathways, and how disorder shapes structural and
+        electronic functionality. Recent examples include configurational searches explaining
+        <strong>vertical crystallisation in low-dimensional perovskites</strong> and machine-learning-enhanced studies of
+        <strong>miscibility gaps in mixed-halide compositions</strong>. The goal: design principles connecting composition,
+        local structure, and phase behaviour — applicable to battery electrodes, catalysts, and
+        critical-mineral-substituted alloys alike.
+      </p>
+    </div>
+
+    <div class="theme">
+      <div class="theme-kicker">Theme III</div>
+      <h3>Transport Across Length and Time Scales</h3>
+      <img class="theme-fig" src="assets/theme3_transport.png" alt="Machine-learning-enhanced simulations across scales: ~80 ns molecular dynamics of ion migration in a 1000-atom cell with Arrhenius diffusivity plot, and a ~20,000-atom perovskite interface model.">
+      <p>
+        In functional materials, electronic, ionic, and thermal transport are often strongly coupled: ion
+        motion influences electronic properties and degradation, lattice vibrations control heat dissipation
+        and carrier scattering, and local disorder alters both charge and mass transport.
+      </p>
+      <p>
+        Building on my work in thermoelectrics and interest in hot-carrier cooling, I combine first-principles
+        calculations with machine-learning-enhanced simulations to study <strong>ionic transport in complex
+        semiconductors, charge-carrier dynamics, electron–phonon interactions, and thermal transport</strong> in
+        chemically complex systems — moving beyond idealised static structures to the local environments and
+        dynamical fluctuations present in real materials.
+      </p>
+    </div>
+
+    <div class="theme">
+      <div class="theme-kicker">Cross-cutting</div>
+      <h3>Machine-Learning Approaches for Materials Design</h3>
+      <p>
+        A unifying thread across my research is using machine learning to extend the reach of atomistic
+        simulation with <strong>physical insight, careful validation, and clear connection to experiments</strong>. I develop
+        computational workflows that integrate first-principles electronic structure methods, machine-learned
+        interatomic potentials (GAP, MACE), configurational sampling, and data-driven materials discovery —
+        designed to answer specific materials chemistry questions rather than simply generate large datasets.
+      </p>
+      <p>
+        Machine-learned models are validated against first-principles calculations, known physical limits,
+        and experimental trends, ensuring simulations that are not only computationally efficient but
+        physically meaningful.
+      </p>
+    </div>
+  </section>
+
+  <section class="reveal">
+    <h2 class="section-title">Collaboration</h2>
+    <div class="prose">
+      <p>
+        I work in highly interdisciplinary environments, closely integrated with materials synthesis, advanced
+        characterisation, and device engineering. Current and past collaborations include the groups of
+        Prof. Saiful Islam and Prof. Henry Snaith (Oxford), Prof. Giulia Grancini (Pavia),
+        Prof. Robert Hoye (Oxford), Dr. Ricardo Grau-Crespo (Reading / QMUL), and Prof. Aftab Alam (IIT Bombay),
+        alongside experimental partners across photovoltaics, optoelectronics, and thermoelectrics.
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div>&copy; 2026 Dr. Vikram · Built with care in Oxford</div>
+    <div>
+      <a href="https://scholar.google.com/citations?user=Y_mPQDgAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a> ·
+      <a href="https://orcid.org/0000-0002-5734-6905" target="_blank" rel="noopener">ORCID</a> ·
+      <a href="https://www.linkedin.com/in/dr-vikram-b2b9211b3/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
