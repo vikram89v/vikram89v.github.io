@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — Dr. Vikram</title>
+  <meta name="description" content="Photo gallery of Dr. Vikram — conferences, talks, and research life.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">Dr. <span>Vikram</span></a>
+    <button class="nav-toggle" aria-label="Toggle menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="teaching.html">Teaching &amp; Mentoring</a></li>
+      <li><a href="talks.html">Talks &amp; Awards</a></li>
+      <li><a href="gallery.html" class="active">Gallery</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-head container">
+  <h1>Gallery</h1>
+  <p>Moments from conferences, talks, and research life.</p>
+</header>
+
+<main class="container">
+
+  <section class="reveal">
+    <div class="gallery-grid">
+      <figure class="gallery-item">
+        <img src="assets/gallery/IMG-20240515-WA0005.jpg" alt="Vikram giving a contributed talk on surface interactions of amino-silanes at HOPV 2024, Valencia" loading="lazy">
+        <figcaption>Contributed talk at the International Conference on Hybrid and Organic Photovoltaics (HOPV24), Valencia, Spain — May 2024.</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="assets/gallery/group.jpeg" alt="Group photo at the HOPV conference banner" loading="lazy">
+        <figcaption>With colleagues and collaborators at HOPV24, Valencia, Spain — May 2024.</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="assets/gallery/1.jpg" alt="Vikram presenting a lecture with University of Oxford slides on solar energy" loading="lazy">
+        <figcaption>Presenting at the University of Oxford.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+</main>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Enlarged photo">
+  <button class="lightbox-close" aria-label="Close">&times;</button>
+  <img src="" alt="">
+  <p class="lightbox-caption"></p>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div>&copy; 2026 Dr. Vikram · Built with care in Oxford</div>
+    <div>
+      <a href="https://scholar.google.com/citations?user=Y_mPQDgAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a> ·
+      <a href="https://orcid.org/0000-0002-5734-6905" target="_blank" rel="noopener">ORCID</a> ·
+      <a href="https://www.linkedin.com/in/dr-vikram-b2b9211b3/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/gallery.js"></script>
+</body>
+</html>
